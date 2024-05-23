@@ -1,0 +1,17 @@
+-- data.db
+CREATE TABLE images (
+    id INTEGER PRIMARY KEY,
+    url TEXT NOT NULL
+);
+
+-- Insert test data
+INSERT INTO images (id, url) VALUES (0, 'https://api.dicebear.com/8.x/pixel-art/png?seed=0&size=150');
+INSERT INTO images (id, url) VALUES (1, 'https://api.dicebear.com/8.x/pixel-art/png?seed=1&size=150');
+INSERT INTO images (id, url) VALUES (2, 'https://api.dicebear.com/8.x/pixel-art/png?seed=2&size=150');
+INSERT INTO images (id, url) VALUES (3, 'https://api.dicebear.com/8.x/pixel-art/png?seed=3&size=150');
+INSERT INTO images (id, url) VALUES (4, 'https://api.dicebear.com/8.x/pixel-art/png?seed=4&size=150');
+INSERT INTO images (id, url) VALUES (5, 'https://api.dicebear.com/8.x/pixel-art/png?seed=5&size=150');
+INSERT INTO images (id, url) VALUES (6, 'https://api.dicebear.com/8.x/pixel-art/png?seed=6&size=150');
+INSERT INTO images (id, url) VALUES (7, 'https://api.dicebear.com/8.x/pixel-art/png?seed=7&size=150');
+INSERT INTO images (id, url) VALUES (8, 'https://api.dicebear.com/8.x/pixel-art/png?seed=8&size=150');
+INSERT INTO images (id, url) VALUES (9, 'https://api.dicebear.com/8.x/pixel-art/png?seed=9&size=150');

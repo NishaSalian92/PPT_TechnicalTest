@@ -1,0 +1,21 @@
+1. How did you verify that everything works correctly?
+   - Tested different user IDs in the frontend to ensure each rule was correctly applied:
+     - User IDs ending in 6, 7, 8, 9 retrieved the image URL from the external JSON server.
+     - User IDs ending in 1, 2, 3, 4, 5 retrieved the image URL from the SQLite database.
+     - User IDs containing vowels displayed the vowel-specific image.
+     - User IDs with non-alphanumeric characters displayed a randomly selected image.
+     - User IDs that didn't match any specific rules displayed the default image.
+   - Checked the console logs and network requests for any errors or unexpected behavior.
+
+2. How long did it take you to complete the task?
+   - Approximately 3 hours, including setting up the project, writing the code, testing the functionality, and debugging.
+
+3. What else could be done to your solution to make it ready for production?
+   - a)Error Handling: Add more robust error handling for database operations and external API calls.
+   - b)Security: Implement input validation and sanitization to prevent SQL injection and other security vulnerabilities.
+   - c)Caching: Use caching for frequently accessed data to reduce latency and improve performance.
+   - d)Logging: Implement a logging framework to capture detailed logs for monitoring and debugging.
+   - e)Configuration Management: Use environment variables for configuration settings like database connection strings.
+   - f)Testing: Write unit tests and integration tests to ensure all parts of the application work as expected.
+   - g)Deployment: Set up a CI/CD pipeline for automated testing and deployment.
+   - h)Documentation: Provide comprehensive documentation for the API endpoints and overall system architecture.
